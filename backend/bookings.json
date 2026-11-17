@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "1763132568739",
+    "carName": "Toyota Camry",
+    "passengerName": "suraj",
+    "passengerId": "1234",
+    "phoneNumber": "4567891",
+    "fromLocation": "hubli",
+    "toLocation": "pune",
+    "bookingDate": "2025-11-21",
+    "returnDate": "2025-11-24",
+    "drivingLicense": "7686",
+    "location": "hubli to pune",
+    "rent": 2500,
+    "totalDays": 4,
+    "totalRent": 14000,
+    "extraCharges": 4000,
+    "createdAt": "2025-11-14T15:02:48.739Z"
+  },
+  {
+    "_id": "1763132765898",
+    "carName": "Maruti Swift",
+    "passengerName": "sach",
+    "passengerId": "3421",
+    "phoneNumber": "9901368209",
+    "fromLocation": "haveri",
+    "toLocation": "pune",
+    "bookingDate": "2025-11-15",
+    "returnDate": "2025-11-18",
+    "drivingLicense": "23211",
+    "location": "haveri to pune",
+    "rent": 1500,
+    "totalDays": 4,
+    "totalRent": 10000,
+    "extraCharges": 4000,
+    "createdAt": "2025-11-14T15:06:05.898Z"
+  }
+]

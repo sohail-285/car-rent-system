@@ -1,0 +1,25 @@
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- White Background -->
+  <rect width="400" height="250" fill="#ffffff"/>
+  
+  <!-- Toyota Camry Realistic Silhouette -->
+  <g transform="translate(50, 80)">
+    <!-- Main Body -->
+    <path d="M 20 100 L 280 100 L 285 95 L 285 85 L 280 80 L 270 75 L 250 70 L 230 68 L 200 68 L 180 70 L 160 72 L 140 70 L 120 68 L 100 68 L 80 70 L 60 75 L 40 80 L 30 85 L 25 90 L 20 95 Z" fill="#c0392b"/>
+    
+    <!-- Roof Line -->
+    <path d="M 60 75 L 80 55 L 100 45 L 140 40 L 180 40 L 220 45 L 240 55 L 250 70" fill="#e74c3c"/>
+    
+    <!-- Windows -->
+    <path d="M 70 65 L 85 50 L 125 48 L 135 60 Z" fill="#ecf0f1"/>
+    <path d="M 165 60 L 175 48 L 215 50 L 230 65 Z" fill="#ecf0f1"/>
+    
+    <!-- Wheels -->
+    <circle cx="80" cy="100" r="18" fill="#34495e"/>
+    <circle cx="220" cy="100" r="18" fill="#34495e"/>
+    <circle cx="80" cy="100" r="12" fill="#7f8c8d"/>
+    <circle cx="220" cy="100" r="12" fill="#7f8c8d"/>
+  </g>
+  
+  <text x="200" y="200" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="middle">Toyota Camry</text>
+</svg>

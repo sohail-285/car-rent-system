@@ -1,0 +1,29 @@
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- White Background -->
+  <rect width="400" height="250" fill="#ffffff"/>
+  
+  <!-- BMW X5 Realistic SUV Silhouette -->
+  <g transform="translate(40, 70)">
+    <!-- Main Body (Taller SUV) -->
+    <path d="M 20 105 L 300 105 L 305 100 L 305 85 L 300 75 L 285 65 L 270 60 L 250 58 L 220 58 L 190 58 L 160 58 L 130 58 L 100 58 L 70 60 L 50 65 L 35 75 L 25 85 L 20 95 Z" fill="#2c3e50"/>
+    
+    <!-- Roof Line (SUV Height) -->
+    <path d="M 50 65 L 70 45 L 90 35 L 130 30 L 190 30 L 230 35 L 250 45 L 270 60" fill="#2c3e50"/>
+    
+    <!-- Windows -->
+    <path d="M 60 58 L 75 42 L 115 38 L 125 55 Z" fill="#ecf0f1"/>
+    <path d="M 175 55 L 185 38 L 225 42 L 240 58 Z" fill="#ecf0f1"/>
+    
+    <!-- Wheels (Larger SUV) -->
+    <circle cx="80" cy="105" r="20" fill="#34495e"/>
+    <circle cx="240" cy="105" r="20" fill="#34495e"/>
+    <circle cx="80" cy="105" r="14" fill="#7f8c8d"/>
+    <circle cx="240" cy="105" r="14" fill="#7f8c8d"/>
+    
+    <!-- BMW Kidney Grille -->
+    <ellipse cx="295" cy="75" rx="6" ry="12" fill="#34495e"/>
+    <ellipse cx="295" cy="90" rx="6" ry="12" fill="#34495e"/>
+  </g>
+  
+  <text x="200" y="200" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="middle">BMW X5</text>
+</svg>

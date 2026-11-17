@@ -1,0 +1,28 @@
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- White Background -->
+  <rect width="400" height="250" fill="#ffffff"/>
+  
+  <!-- Hyundai Creta Compact SUV Silhouette -->
+  <g transform="translate(50, 75)">
+    <!-- Main Body (Compact SUV) -->
+    <path d="M 25 100 L 275 100 L 280 95 L 280 80 L 275 70 L 260 60 L 240 58 L 210 57 L 180 57 L 150 57 L 120 57 L 90 58 L 65 60 L 45 70 L 30 80 L 25 90 Z" fill="#2c3e50"/>
+    
+    <!-- Roof Line (SUV Height) -->
+    <path d="M 45 70 L 65 45 L 85 38 L 120 35 L 180 35 L 215 38 L 235 45 L 260 60" fill="#2c3e50"/>
+    
+    <!-- Windows -->
+    <path d="M 55 62 L 70 42 L 105 40 L 115 58 Z" fill="#ecf0f1"/>
+    <path d="M 165 58 L 175 40 L 210 42 L 225 62 Z" fill="#ecf0f1"/>
+    
+    <!-- Wheels -->
+    <circle cx="75" cy="100" r="18" fill="#34495e"/>
+    <circle cx="225" cy="100" r="18" fill="#34495e"/>
+    <circle cx="75" cy="100" r="12" fill="#7f8c8d"/>
+    <circle cx="225" cy="100" r="12" fill="#7f8c8d"/>
+    
+    <!-- Cladding -->
+    <rect x="25" y="85" width="250" height="6" fill="#34495e"/>
+  </g>
+  
+  <text x="200" y="200" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="middle">Hyundai Creta</text>
+</svg>

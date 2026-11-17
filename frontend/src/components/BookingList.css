@@ -1,0 +1,138 @@
+.bookings-container {
+  margin-top: 20px;
+}
+
+.bookings-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.bookings-header h2 {
+  color: #333;
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.admin-toggle-btn {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.admin-toggle-btn:hover {
+  background: #5a6268;
+}
+
+.admin-toggle-btn.admin-active {
+  background: #dc3545;
+}
+
+.admin-toggle-btn.admin-active:hover {
+  background: #c82333;
+}
+
+.loading {
+  text-align: center;
+  color: #666;
+  font-size: 1.1rem;
+  padding: 40px;
+}
+
+.no-bookings {
+  text-align: center;
+  color: #666;
+  font-size: 1.1rem;
+  padding: 40px;
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+.error-msg {
+  background: #f8d7da;
+  color: #721c24;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border-left: 4px solid #dc3545;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.bookings-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  min-width: 800px;
+}
+
+.bookings-table th {
+  background: #007bff;
+  color: white;
+  padding: 15px 10px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.bookings-table td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #e9ecef;
+  font-size: 0.9rem;
+}
+
+.bookings-table tr:hover {
+  background: #f8f9fa;
+}
+
+.bookings-table tr:last-child td {
+  border-bottom: none;
+}
+
+.delete-btn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: background 0.3s ease;
+}
+
+.delete-btn:hover {
+  background: #c82333;
+}
+
+@media (max-width: 768px) {
+  .bookings-header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  
+  .bookings-table {
+    font-size: 0.8rem;
+  }
+  
+  .bookings-table th,
+  .bookings-table td {
+    padding: 8px 5px;
+  }
+  
+  .delete-btn {
+    padding: 4px 8px;
+    font-size: 0.7rem;
+  }
+}

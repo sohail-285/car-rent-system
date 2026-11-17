@@ -1,0 +1,25 @@
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- White Background -->
+  <rect width="400" height="250" fill="#ffffff"/>
+  
+  <!-- Maruti Swift Hatchback Silhouette -->
+  <g transform="translate(80, 85)">
+    <!-- Main Body (Compact Hatchback) -->
+    <path d="M 30 95 L 210 95 L 215 90 L 215 80 L 210 75 L 200 70 L 185 68 L 170 67 L 150 67 L 130 67 L 110 67 L 90 68 L 70 70 L 50 75 L 35 80 L 30 85 Z" fill="#2c3e50"/>
+    
+    <!-- Roof Line (Hatchback - Shorter Rear) -->
+    <path d="M 50 75 L 70 50 L 90 42 L 120 40 L 150 40 L 175 45 L 190 60 L 200 70" fill="#2c3e50"/>
+    
+    <!-- Windows -->
+    <path d="M 60 65 L 75 47 L 105 45 L 115 60 Z" fill="#ecf0f1"/>
+    <path d="M 135 60 L 145 45 L 175 50 L 185 65 Z" fill="#ecf0f1"/>
+    
+    <!-- Wheels -->
+    <circle cx="70" cy="95" r="15" fill="#34495e"/>
+    <circle cx="175" cy="95" r="15" fill="#34495e"/>
+    <circle cx="70" cy="95" r="9" fill="#7f8c8d"/>
+    <circle cx="175" cy="95" r="9" fill="#7f8c8d"/>
+  </g>
+  
+  <text x="200" y="200" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="middle">Maruti Swift</text>
+</svg>

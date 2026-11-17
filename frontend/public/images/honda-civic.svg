@@ -1,0 +1,25 @@
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- White Background -->
+  <rect width="400" height="250" fill="#ffffff"/>
+  
+  <!-- Honda Civic Realistic Silhouette -->
+  <g transform="translate(60, 85)">
+    <!-- Main Body (Sportier) -->
+    <path d="M 25 95 L 260 95 L 265 90 L 265 80 L 260 75 L 245 70 L 225 68 L 200 67 L 175 67 L 150 68 L 125 67 L 100 67 L 75 68 L 55 70 L 40 75 L 30 80 L 25 85 Z" fill="#2980b9"/>
+    
+    <!-- Roof Line (Lower, Sportier) -->
+    <path d="M 55 70 L 75 50 L 95 42 L 130 40 L 170 40 L 205 42 L 225 50 L 245 70" fill="#3498db"/>
+    
+    <!-- Windows -->
+    <path d="M 65 62 L 80 47 L 115 45 L 125 58 Z" fill="#ecf0f1"/>
+    <path d="M 155 58 L 165 45 L 200 47 L 215 62 Z" fill="#ecf0f1"/>
+    
+    <!-- Wheels -->
+    <circle cx="75" cy="95" r="16" fill="#34495e"/>
+    <circle cx="205" cy="95" r="16" fill="#34495e"/>
+    <circle cx="75" cy="95" r="10" fill="#7f8c8d"/>
+    <circle cx="205" cy="95" r="10" fill="#7f8c8d"/>
+  </g>
+  
+  <text x="200" y="200" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="middle">Honda Civic</text>
+</svg>

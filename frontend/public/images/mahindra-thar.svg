@@ -1,0 +1,37 @@
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- White Background -->
+  <rect width="400" height="250" fill="#ffffff"/>
+  
+  <!-- Mahindra Thar Off-Road SUV Silhouette -->
+  <g transform="translate(45, 70)">
+    <!-- Main Body (Rugged Off-Road) -->
+    <path d="M 20 105 L 290 105 L 295 100 L 295 85 L 290 75 L 275 65 L 255 62 L 230 60 L 200 60 L 170 60 L 140 60 L 110 60 L 80 62 L 55 65 L 35 75 L 25 85 L 20 95 Z" fill="#2c3e50"/>
+    
+    <!-- Roof Line (Boxy Off-Road Style) -->
+    <rect x="55" y="40" width="180" height="25" fill="#2c3e50"/>
+    
+    <!-- Windshield (Upright) -->
+    <rect x="55" y="40" width="60" height="25" fill="#2c3e50"/>
+    
+    <!-- Windows -->
+    <rect x="60" y="45" width="50" height="15" fill="#ecf0f1"/>
+    <rect x="140" y="45" width="80" height="15" fill="#ecf0f1"/>
+    
+    <!-- Wheels (Large Off-Road) -->
+    <circle cx="75" cy="105" r="20" fill="#34495e"/>
+    <circle cx="235" cy="105" r="20" fill="#34495e"/>
+    <circle cx="75" cy="105" r="14" fill="#7f8c8d"/>
+    <circle cx="235" cy="105" r="14" fill="#7f8c8d"/>
+    
+    <!-- Spare Tire -->
+    <circle cx="25" cy="80" r="12" fill="#34495e"/>
+    
+    <!-- Grille (7-Slot) -->
+    <rect x="285" y="70" width="12" height="20" fill="#34495e"/>
+    <line x1="287" y1="72" x2="287" y2="88" stroke="#7f8c8d" stroke-width="1"/>
+    <line x1="290" y1="72" x2="290" y2="88" stroke="#7f8c8d" stroke-width="1"/>
+    <line x1="293" y1="72" x2="293" y2="88" stroke="#7f8c8d" stroke-width="1"/>
+  </g>
+  
+  <text x="200" y="200" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="middle">Mahindra Thar</text>
+</svg>
